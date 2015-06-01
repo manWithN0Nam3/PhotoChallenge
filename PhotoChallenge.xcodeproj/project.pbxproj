@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970F511F1B1BD394004AE20B /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 970F511E1B1BD394004AE20B /* SubClass.m */; };
+		970F51221B1BD67B004AE20B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 970F51211B1BD67B004AE20B /* CollectionViewCell.m */; };
+		971FC0E91B1BF4F600087589 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 971FC0E81B1BF4F600087589 /* Picture.m */; };
 		9798A4391B1B69BD00CE40E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9798A4381B1B69BD00CE40E9 /* main.m */; };
 		9798A43C1B1B69BD00CE40E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9798A43B1B1B69BD00CE40E9 /* AppDelegate.m */; };
 		9798A43F1B1B69BD00CE40E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9798A43E1B1B69BD00CE40E9 /* ViewController.m */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		970F511D1B1BD394004AE20B /* SubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		970F511E1B1BD394004AE20B /* SubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
+		970F51201B1BD67B004AE20B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		970F51211B1BD67B004AE20B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		971FC0E71B1BF4F600087589 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		971FC0E81B1BF4F600087589 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 		9798A4331B1B69BD00CE40E9 /* PhotoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9798A4371B1B69BD00CE40E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9798A4381B1B69BD00CE40E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,7 +94,13 @@
 				9798A43B1B1B69BD00CE40E9 /* AppDelegate.m */,
 				9798A43D1B1B69BD00CE40E9 /* ViewController.h */,
 				9798A43E1B1B69BD00CE40E9 /* ViewController.m */,
+				971FC0E71B1BF4F600087589 /* Picture.h */,
+				971FC0E81B1BF4F600087589 /* Picture.m */,
 				9798A4401B1B69BD00CE40E9 /* Main.storyboard */,
+				970F51201B1BD67B004AE20B /* CollectionViewCell.h */,
+				970F51211B1BD67B004AE20B /* CollectionViewCell.m */,
+				970F511D1B1BD394004AE20B /* SubClass.h */,
+				970F511E1B1BD394004AE20B /* SubClass.m */,
 				9798A4431B1B69BD00CE40E9 /* Images.xcassets */,
 				9798A4451B1B69BD00CE40E9 /* LaunchScreen.xib */,
 				9798A4361B1B69BD00CE40E9 /* Supporting Files */,
@@ -219,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971FC0E91B1BF4F600087589 /* Picture.m in Sources */,
 				9798A43F1B1B69BD00CE40E9 /* ViewController.m in Sources */,
+				970F51221B1BD67B004AE20B /* CollectionViewCell.m in Sources */,
+				970F511F1B1BD394004AE20B /* SubClass.m in Sources */,
 				9798A43C1B1B69BD00CE40E9 /* AppDelegate.m in Sources */,
 				9798A4391B1B69BD00CE40E9 /* main.m in Sources */,
 			);
@@ -416,6 +434,7 @@
 				9798A4581B1B69BD00CE40E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9798A4591B1B69BD00CE40E9 /* Build configuration list for PBXNativeTarget "PhotoChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				9798A45B1B1B69BD00CE40E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
