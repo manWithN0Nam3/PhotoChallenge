@@ -94,13 +94,17 @@
     NSDictionary *dictionary = [self.array2 objectAtIndex:indexPath.row];
     //3rd layer - dictioanry
 
-       NSDictionary *standardRes = [dictionary objectForKey:@"images"];
+       NSDictionary *images = [dictionary objectForKey:@"images"];
 
+    NSDictionary *standardRes = [images objectForKey:@"standard_resolution"];
+
+    NSLog(@"%@",standardRes);
 
     NSString *urlString = [standardRes objectForKey:@"url"];
     NSURL *imageURL = [NSURL URLWithString:urlString];
     NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
-    _cell.imageView.image= [UIImage imageWithData:imageData];
+    UIImage *imagee = [UIImage imageWithData:imageData];
+    _cell.backgroundView= [[UIImageView alloc]initWithImage:imagee];
 
 //
 //    NSURL *imageURL = [NSURL URLWithString:[standardRes objectForKey:@"url"]];
